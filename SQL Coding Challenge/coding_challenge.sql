@@ -169,7 +169,15 @@ where s.SuspectID is null
 
 --18. List all cases where at least one incident is of type 'Homicide' and all other incidents are of type 'Robbery'.
 
-
+select CrimeID, IncidentType
+from Crime 
+where IncidentType = 'Homicide' 
+group by CrimeID,IncidentType
+having count(CrimeID)>=1
+UNION all
+select CrimeID, IncidentType
+from Crime 
+where IncidentType = 'Robbery'
 
 --19. . Retrieve a list of all incidents and the associated suspects, showing suspects for each incident, or'No Suspect' if there are none.
 
