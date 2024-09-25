@@ -1,6 +1,5 @@
 -- Assignment: 2. Student Information System (SIS)
 
--- ER Diagram (https://t.ly/eCBpw)
 -- Create Database
 CREATE DATABASE SIS
 -- TASK 1
@@ -184,7 +183,8 @@ insert into Students values
 select * from Students
 /*
 2. Write an SQL query to enroll a student in a course. Choose an existing student and course and
-insert a record into the "Enrollments" table with the enrollment date.*/
+insert a record into the "Enrollments" table with the enrollment date.
+*/
 insert into Enrollments (student_id, course_id, enrollment_date)
 values (1003, 4, getdate());
 
