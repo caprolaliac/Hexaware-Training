@@ -1,5 +1,4 @@
 -- Case Study: Ecommerce Application
--- Database Schema (https://t.ly/JqPI0)
 /*
 Create following tables in SQL Schema with appropriate class and write the unit test case for the Ecommerce Application
 */
