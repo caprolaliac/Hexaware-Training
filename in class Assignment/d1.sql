@@ -1,12 +1,6 @@
-/*
---------------------------------------------------------------------
-© 2017 sqlservertutorial.net All Rights Reserved
---------------------------------------------------------------------
-Name   : BikeStores
-Link   : http://www.sqlservertutorial.net/load-sample-database/
-Version: 1.0
---------------------------------------------------------------------
-*/
+-- this file contains both bike store(line 3) and employee department assignments (line 224)
+
+--- BIKE STORE
 -- create schemas
 
 create database Bikestore
