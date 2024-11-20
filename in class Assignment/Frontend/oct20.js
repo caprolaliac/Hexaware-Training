@@ -63,10 +63,10 @@ const deliveredOrders = orders.filter(order => order.delivered);
 console.log(deliveredOrders);
 
 
-const userIdAndAmount = orders
+const userIdAmt = orders
   .filter(order => order.delivered)  
   .map(order => ({ userId: order.userId, amount: order.amount }));
-console.log(userIdAndAmount);
+console.log(userIdAmt);
 
 const firstOrderByUser102 = orders.find(order => order.userId === 102);
 console.log(firstOrderByUser102);
