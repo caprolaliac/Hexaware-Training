@@ -1,4 +1,22 @@
 /*
+Create array of Object of students which has Student
+id,name, result,percentage
+ 
+You should list out all passed student and they got the percentage greater than 80
+*/
+
+const students = [
+  { id: 1, name: "Varun", result: "Pass", percentage: 78 },
+  { id: 2, name: "Aryan", result: "Pass", percentage: 85 },
+  { id: 3, name: "Tejas", result: "Pass", percentage: 90 }
+];
+
+const Above80 = students.filter(student => student.result === "Pass" && student.percentage > 80);
+
+console.log(Above80);
+
+
+/*
 You are provided with an array of user orders.
 Your task is to process these orders and generate a summary report
  using JavaScript array methods.
